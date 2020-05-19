@@ -1,0 +1,11 @@
+#include "stm32f4xx.h"  
+
+#ifndef config_h
+#define config_h
+
+
+void config_GPIOD(void);
+void config_CANBUS(void);
+
+
+#endif
